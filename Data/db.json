@@ -19,10 +19,10 @@
       "likes": 20
     },
     {
-      "title": "ESAMPLE",
-      "body": "In this example, we first check if the obj value is an array using the Array.isArray() method. If it is an array, we call the forEach() method on it. Otherwise, we do not call forEach() and the error is avoided.\n\nThe Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object. In this case, we're passing the arrayLike object as the argument to Array.from(), which creates a new array with the same elements as the arrayLike object.\n\nThen, we're using the forEach() method to iterate over the elements of the arr array and log each element to the console.\n\nAnd here's an example using Object.keys:\n\nconst arrayLike = {\n  0: 'a',\n  1: 'b',\n  2: 'c',\n  length: 3\n};\n\nconst arr = Object.keys(arrayLike);\narr.forEach(element => console.log(element));\n\n// output: 0 1 2 length\nThe Object.keys() method returns an array of a given object's own enumerable property names, in the same order as we get with a normal loop. In this case, we're passing the arrayLike object as the argument to Object.keys(), which creates a new array with the keys of the arrayLike object.",
+      "title": "JS, IT'S EITHER YOU OR ME",
+      "body": "I know I've not been consistent but e still no mean say I go let JS to win this battle. \nYou no fit beat JS, LIE!!!!!\nI'm not crazy abeg oooo",
       "likes": 40,
-      "id": 4
+      "id": 5
     }
   ]
 }
